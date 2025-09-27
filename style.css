@@ -17,3 +17,11 @@ border-radius: 10px;
     text-align: center;
 }
 
+.landing-cards
+{
+    transition:transform 0.3 ease-in-out;
+}
+
+.landing-cards:hover{
+    transform: scale(1.03);
+}
