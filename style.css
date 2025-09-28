@@ -25,3 +25,76 @@ border-radius: 10px;
 .landing-cards:hover{
     transform: scale(1.03);
 }
+
+
+.pie-outer{
+
+    width: 95%;
+    height: 120px;
+    padding: 40px;
+}
+
+.pie{
+
+    border-radius: 58%;
+    width: 50%;
+    height: 230px;
+    background: conic-gradient(
+
+     #08CB00 0% 20%,
+     #FCB53B 20% 40%,
+     #8C1007  40% 70%,
+     #3396D3  70% 100%
+
+    );
+}
+
+.green{
+
+    border:1px solid black;
+    width: 2%;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #08CB00;
+}
+
+/* .red{
+   border:1px solid black;
+    width: 2%;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #8C1007; 
+}
+
+.yellow{
+
+    border:1px solid black;
+    width: 2%;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #FCB53B;
+}
+
+.blue{
+
+    border:1px solid black;
+    width: 2%;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #3396D3;
+} */
+
+.text-red{
+    color: #8C1007;
+}
+
+.text-green{
+    color: #08CB00;
+}
+
+.text-blue{
+    color: #3396D3;
+}
+.text-yellow{
+    color: #FCB53B;
+}

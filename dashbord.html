@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <!-- custom link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- boostrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body style="background-color: rgb(227, 221, 235);">
+
+    <!-- nav bar start -->
+
+    <nav class="navbar bg-light border-bottom border-body" data-bs-theme="dark">
+
+        <!-- parent-box for logo flex -->
+        <div class="parent-box  d-flex w-100">
+            <div class="log-box ">
+                <img src="./images/logo1.png" alt="">
+            </div>
+            <!-- signup  and login button header -->
+            <div class="side-btn  mt-5 ">
+                <a class="text-dark  ms-5 fs-5" href="">Add Expense</a>
+
+                <a class="text-dark ms-4 fs-5" href="">Expense List</a>
+
+                <a class="text-dark ms-4 fs-5" href="">Expense Summary</a>
+            </div>
+
+            <button class="btn btn-outline-dark mt-5 h-25 ms-auto"><a href="./signup.html">Sign up</a></button>
+        </div>
+    </nav>
+    <!-- nav bar end -->
+
+    <!-- main section start  -->
+
+
+
+    <h2 class="fw-bolder mt-4 ms-2">Welcome, Hanna Anwar!</h2>
+
+    <!-- flex for 3 boxes  -->
+
+    <div class="d-flex justify-content-evenly">
+
+        <div class="row w-75 mt-4">
+
+            <div class="col-md-3 col-12 ">
+
+                <div class="border border-4 border-dark p-4 rounded-4">
+                    <h4>Total Expenses</h4>
+                    <h5 class="ms-5">$1200</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-12 ">
+                <div class="border border-dark border-4 rounded-4 p-4">
+                    <h4>Monthly Expenses </h4>
+                    <h5 class="ms-5">$1000</h5>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-12 ">
+                <div class="border border-dark border-4 rounded-4 p-4">
+                    <h4 class="ms-4">By Category</h4>
+                    <h5 class="ms-5">4 Category</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main section end  -->
+
+
+    <div class="d-flex justify-content-around  mt-4">
+
+        <div class="row w-75 mt-4 ">
+
+            <div class="col-md-6 col-12 ">
+
+                <div class="border rounded-4 h-100 pie-outer border border-2 border-dark ">
+
+                    <h4>Expenses by Category</h4>
+
+                    <div class="pie">
+                    </div>
+
+                    <div class="label h-50">
+
+                        <!-- 
+                        <div class="">
+                            <div class="green mt-2">
+                                <h6 class="ms-3">food</h6>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="red mt-2 ">
+                                <h6 class="ms-3">travel</h6>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="yellow mt-2 ">
+                                <h6 class="ms-3">shopping</h6>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="blue mt-2 ">
+                                <h6 class="ms-3">utilities</h6>
+                            </div>
+                        </div> -->
+                        <ul>
+                            <li>
+                                <h6 class="text-red">Food</h6>
+                            </li>
+                            <li>
+                                <h6 class="text-blue">Shopping</h6>
+                            </li>
+                            <li>
+                                <h6 class="text-green">Travel</h6>
+                            </li>
+                            <li>
+                                <h6 class="text-yellow">Utilities</h6>
+                            </li>
+                        </ul>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-12 ">
+
+                <div class="border border-dark  border-2 rounded-4 ">
+
+                    <h4 class="text-center">Recent Expenses</h4>
+
+                    <table class="table  w-100 mt-4">
+
+
+                        <thead>
+                            <tr>
+
+                                <th scope="col">Date</th>
+                                <th scope="col">Deascription</th>
+                                <th scope="col">Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <td>sep/13</td>
+                                <td>grcery</td>
+                                <td>$50</td>
+                            </tr>
+                            <tr>
+
+                                <td>sep/18</td>
+                                <td>Uber</td>
+                                <td>10$</td>
+                            </tr>
+                            <tr>
+
+                                <td>sep/22</td>
+                                <td>Internet Bill</td>
+                                <td>8$</td>
+                            </tr>
+
+                            <tr>
+
+                                <td>sep/26</td>
+                                <td>food</td>
+                                <td>25$</td>
+                            </tr>
+
+                            <tr>
+
+                                <td>sep/28</td>
+                                <td>shopping</td>
+                                <td>40$</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
