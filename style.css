@@ -98,3 +98,19 @@ border-radius: 10px;
 .text-yellow{
     color: #FCB53B;
 }
+
+
+.pie-sum{
+
+    border-radius: 58%;
+    width: 78%;
+    height: 280px;
+    background: conic-gradient(
+
+     #08CB00 0% 20%,
+     #FCB53B 20% 40%,
+     #8C1007  40% 70%,
+     #3396D3  70% 100%
+
+    );
+}
